@@ -1,0 +1,12 @@
+export const grey100 = '#EBEFF3';
+export const grey200 = '#C9D3DF';
+export const grey300 = '#ADB9C9';
+export const grey400 = '#8393A7';
+export const grey500 = '#53657D';
+export const grey600 = '#3D4D65';
+export const grey700 = '#374355';
+export const red = '#D1335B';
+export const blue = '#0081D5';
+export const green = '#03BD5B';
+export const orange = '#FF9947';
+export const purple = '#A939B9';
