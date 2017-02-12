@@ -6,6 +6,7 @@ import Panel, { PanelHeaderLogin } from '../Panel';
 import { Field, Input, InputIcon } from '../Field';
 import { Button } from '../Button';
 import { ErrorMessage } from '../Messages';
+import Box from '../Box';
 
 import logo from '../../images/logo.svg';
 import userIcon from '../../images/user-icon.svg';
@@ -44,9 +45,11 @@ class Login extends React.Component {
               <Input type="password" name="password" placeholder="senha" />
             </Field>
           </Panel>
-          <Button light type="submit" >
-            Entrar
-        </Button>
+          <Box right>
+            <Button light type="submit" >
+              Entrar
+            </Button>
+          </Box>
         </form>
       </Container>
     );
