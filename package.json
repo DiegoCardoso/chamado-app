@@ -6,6 +6,8 @@
     "react-scripts": "0.8.5"
   },
   "dependencies": {
+    "auth0-js": "^8.2.0",
+    "browser-cookies": "^1.1.0",
     "firebase": "^3.6.9",
     "react": "15.4.2",
     "react-dom": "15.4.2",
