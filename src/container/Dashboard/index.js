@@ -1,15 +1,15 @@
 import React from 'react';
 
+import DashboardComponent from '../../components/Dashboard';
+
 import PrivateRoute from '../PrivateRoute';
 
-class Dashboad extends React.Component {
+class Dashboard extends React.Component {
   render() {
     return (
-      <h1>
-        Dashboard
-      </h1>
+      <DashboardComponent />
     )
   }
 }
 
-export default () => (<PrivateRoute path="/dashboard" component={Dashboad} />)
+export default () => (<PrivateRoute path="/dashboard" component={Dashboard} />)
