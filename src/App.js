@@ -8,6 +8,8 @@ import { injectGlobal } from 'styled-components'
 
 import Login from './container/Login';
 import Dashboard from './container/Dashboard';
+import ListCall from './container/ListCall';
+
 
 class App extends Component {
   render() {
@@ -22,6 +24,7 @@ class App extends Component {
         <div>
           <Route path="/" component={Login} />
           <Dashboard />
+          <ListCall />
         </div>
       </Router>
     );
