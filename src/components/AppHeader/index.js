@@ -14,6 +14,6 @@ const Header = styled.header`
 
 export default () => (
   <Header>
-    <img src={logo} width="200px" />
+    <img src={logo} width="200px" role="presentation" />
   </Header>
 )
