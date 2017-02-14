@@ -12,4 +12,4 @@ class Dashboard extends React.Component {
   }
 }
 
-export default () => (<PrivateRoute path="/dashboard" component={Dashboard} />)
+export default () => (<PrivateRoute path="/home" component={Dashboard} />)
