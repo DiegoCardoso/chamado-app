@@ -2,6 +2,7 @@ import React from 'react';
 
 import Container from '../Container';
 import AppHeader from '../AppHeader';
+import MenuBar from '../MenuBar';
 
 const Dashboard = () => (
   <Container>
@@ -9,6 +10,7 @@ const Dashboard = () => (
     <h1>
       Dashboard
     </h1>
+    <MenuBar />
   </Container>
 );
 
